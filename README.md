@@ -43,7 +43,26 @@ SkySpeed is a precision internet speed testing and network diagnostics suite bui
 
 ## 🚀 Quick Start
 
-### 1. Web Application Mode
+### ⚡ 1-Line Universal Install (Linux & macOS)
+
+Install SkySpeed instantly with a single command (creates command-line binary `skyspeed` and desktop application shortcut):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/revolte/SkySpeed/main/install.sh | bash
+```
+
+Once installed, simply run:
+```bash
+skyspeed         # Launches web UI and server
+skyspeed --open  # Launches and auto-opens in your browser
+skyspeed --cli   # Runs an instant speed test right in terminal
+```
+
+Or open **SkySpeed** directly from your desktop applications menu!
+
+---
+
+### Local Manual Start
 
 Run the web server:
 ```bash
